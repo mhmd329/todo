@@ -1,0 +1,477 @@
+.container {
+  width: 86vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+  height: 80vh;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.hal {
+  background-color: white;
+  width: 70vw;
+  height: 70vw;
+  width: 100%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.hal .s {
+  position: absolute;
+  bottom: 5vw;
+  right: 48%;
+  cursor: pointer;
+  background-color: #45e220;
+  width: 5vw;
+  height: 11vh;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 3vw;
+  border: none;
+}
+
+h1 {
+  font-weight: bold !important;
+  font-size: 50px !important;
+}
+
+.hal input {
+  height: 2vh;
+  width: 40vw;
+  border: 0;
+  background-color: #f3f3f3;
+  margin: 4vh 0 0 2vw;
+  border-radius: 30px;
+  padding: 2.4vw;
+  font-size: 2vw;
+}
+
+.cancel {
+  margin: 5vh 0 1vh 7vw;
+  background-color: #fde5e5;
+  color: #eb3737;
+
+  height: 6vh;
+  width: 9vw;
+  border-radius: 7px;
+  font-size: 1vw;
+  border: 0;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.done {
+  margin: 5vh 0 1vh 0.5vw;
+
+  background-color: #def7ef;
+  color: #00a389;
+
+  height: 6vh;
+  width: 9vw;
+  border-radius: 7px;
+  font-size: 1vw;
+  border: 0;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.awl,
+.talt {
+  background-color: #eb3737;
+  margin: 7px 7px 7px;
+  width: 30px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+}
+.tany {
+  background-color: #4292d8;
+  margin: 7px;
+  border: none;
+  width: 30px;
+  height: 40px;
+  border-radius: 15px;
+}
+.rab {
+  background-color: #1de90f;
+  margin: 7px;
+  border: none;
+  width: 30px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+svg {
+  color: white;
+}
+
+.awl {
+  margin-left: 150px;
+}
+
+
+.lol {
+  overflow: auto;
+  max-height: 300px;
+  border: none;
+
+  padding: 15px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.inn {
+  box-shadow: 0 2px 10px 50vh rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 25vh;
+  left: 14%;
+  width: 73vw;
+  height: 15vh;
+  background-color: #fdfdfd;
+  margin: 8vh 0 0;
+  z-index: 3000000000;
+  border-radius: 15px !important;
+}
+.mapa {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+justify-content: space-between;
+  margin: 5px;
+  padding-right: 8px;
+  display: inline-block;
+  height: 12vh;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+li {
+  text-decoration: none;
+}
+
+.green {
+  background-color: #1de90f;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.red {
+  background-color: #eb3737;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.kos {
+  display: flex;
+  flex-direction: column;
+  width: 47vw;
+}
+
+/* Media query for small screens (up to 480px) */
+@media (min-width: 319px) {
+  .hal {
+    height: 70vh;
+    position: relative;
+    width: 70vw;
+    margin-left: 14vw;
+  }
+
+  h1 {
+    font-size: 15px !important;
+  }
+  .task-time {
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    font-size: 3px;
+    margin: 1vh 14vw 1vh 1vw;
+  }
+  .hal .s {
+    width: 12vw;
+    height: 12vw;
+    font-size: 5vw;
+    bottom: 3vh;
+    right: 40%;
+  }
+
+  .cancel .done {
+    position: absolute;
+    top: 35px;
+    left: 180px;
+    width: 20vw;
+    height: 5vh !important;
+    font-size: 3vw;
+    margin: 5px;
+  }
+
+  .awl,
+  .talt,
+  .tany,
+  .rab {
+    padding: 1vh 1vw 0;
+    border-radius: 50%;
+    font-size: 1.7vw;
+    width: 13px;
+    margin: 1vh 0 1vh 1vw;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .kos {
+    box-sizing: border-box;
+    overflow: hidden; /* Hide overflow content */
+    /* or */
+    overflow: auto; /* Show scroll if content overflows */
+    /* or */
+    overflow-wrap: break-word; /* Break long words to keep within container */
+  }
+  .klam {
+    position: relative;
+    right: 33px;
+    margin: 0;
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .lol {
+    right: 10px;
+    overflow: scroll;
+    position: relative;
+    height: 50vh;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  input {
+    height: 40px !important;
+  }
+  .inn {
+    top: 25vh;
+    left: 17%;
+    width: 71vw !important;
+    height: auto;
+    padding: 20px;
+  }
+
+  .mapa li {
+    position: relative; /* تأكد من أن الخلفية داخل العنصر */
+    right: 29px;
+    padding: 1px 1px;
+    margin: 2px 1px;
+    height: 30vh;
+    width: 35vh;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fff; /* تأكد من أن الخلفية داخل العنصر */
+    border-radius: 10px;
+    color: #000;
+  }
+}
+@media (min-width: 767px) {
+  .hal {
+    height: 70vh;
+    position: relative;
+    width: 75vw;
+    margin-left: 10vw;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+  .task-time {
+    position: relative;
+    bottom: 8px;
+    right: 9px;
+    font-size: 8px;
+    margin: 2vh 18vw 2vh 2vw;
+  }
+  .hal .s {
+    width: 13vw;
+    height: 13vw;
+    font-size: 6vw;
+    bottom: 3vh;
+    right: 40%;
+  }
+
+  .cancel .done {
+    position: absolute;
+    top: 35px;
+    left: 180px;
+    width: 20vw;
+    height: 5vh !important;
+    font-size: 3vw;
+    margin: 5px;
+  }
+
+  .awl,
+  .talt,
+  .tany,
+  .rab {
+    padding: .8vh .5vw 0;
+    border-radius: 50%;
+    font-size: 1.5vw;
+    width: 23px;
+    margin: 1vh 0 1vh 1vw;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .kos {
+    box-sizing: border-box;
+    overflow: hidden; /* Hide overflow content */
+    /* or */
+    overflow: auto; /* Show scroll if content overflows */
+    /* or */
+    overflow-wrap: break-word; /* Break long words to keep within container */
+  }
+  .klam {
+    position: relative;
+    right: 33px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bolder;
+  }
+
+  .lol {
+    right: 10px;
+    overflow: scroll;
+    position: relative;
+    height: 37vh;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  input {
+    height: 50px !important;
+  }
+  .inn {
+    top: 25vh;
+    left: 14%;
+    width: 75vw !important;
+    height: auto;
+    padding: 20px;
+  }
+
+  .mapa li {
+    position: relative; /* تأكد من أن الخلفية داخل العنصر */
+    right: 29px;
+    padding: 4px 4px;
+    margin: 2px 1px;
+    height: 30vh;
+    width: 35vh;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fff; /* تأكد من أن الخلفية داخل العنصر */
+    border-radius: 10px;
+    color: #000;
+  }
+}
+
+@media (min-width: 1020px) {
+  .hal {
+    height: 73vh;
+    position: relative;
+    width: 75vw;
+    margin-left: 7vw;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+  .task-time {
+    position: relative;
+    bottom: 8px;
+    right: 60px;
+    font-size: 9px;
+font-weight: bold;  
+  margin: 2vh 18vw 2vh 2vw;
+  }
+  .hal .s {
+    position: absolute;
+    bottom: 3vh;
+    right: 48%;
+    cursor: pointer;
+    background-color: #45e220;
+    width: 5vw;
+    height: 11vh;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 3vw;
+    border: 0;
+  }
+
+  .cancel .done {
+    position: absolute;
+    top: 35px;
+    left: 180px;
+    width: 20vw;
+    height: 5vh !important;
+    font-size: 3vw;
+    margin: 5px;
+  }
+
+  .awl,
+  .talt,
+  .tany,
+  .rab {
+   
+    padding: .8vh .5vw 0;
+    border-radius: 50%;
+    font-size: 1.5vw;
+    width: 30px;
+    margin: 1vh 0 1vh 1vw;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .kos {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the right */
+
+    box-sizing: border-box;
+    overflow: hidden; /* Hide overflow content */
+    /* or */
+    overflow: auto; /* Show scroll if content overflows */
+    /* or */
+    overflow-wrap: break-word; /* Break long words to keep within container */
+  }
+  .klam {
+    position: relative;
+    right: 140px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bolder;
+  }
+
+  .lol {
+    right: 10px;
+    overflow: scroll;
+    position: relative;
+    height: 37vh;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  input {
+    height: 50px !important;
+  }
+  .inn {
+    position: fixed;
+    top: 25vh;
+    left: 11%;
+    width: 75vw !important;
+    height: 15vh;
+    padding: 20px;
+  }
+
+  .mapa li {
+    position: relative; /* تأكد من أن الخلفية داخل العنصر */
+    right: 29px;
+    padding: 4px 4px;
+    margin: 2px 1px;
+    height: 30vh;
+    width: 35vh;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fff; /* تأكد من أن الخلفية داخل العنصر */
+    border-radius: 10px;
+    color: #000;
+  }
+}
+
